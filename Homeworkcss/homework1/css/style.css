@@ -1,0 +1,15 @@
+h1.t1 {
+  color: red;
+}
+h2 {
+  color: green;
+}
+p.mypara {
+  color: yellow;
+}
+
+h1.t1,
+h2,
+p.mypara {
+  text-align: center;
+}

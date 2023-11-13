@@ -1,0 +1,9 @@
+body {
+  background-image: url("../images/imag.jpg");
+
+  background-repeat: repeat-y;
+}
+h1 {
+  color: blue;
+  text-align: center;
+}
