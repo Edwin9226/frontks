@@ -1,0 +1,16 @@
+.out {
+  display: grid;
+  background-color: red;
+  padding: 10px;
+  grid-template-columns: auto auto auto auto;
+  gap: 80px 20px;
+  align-content: center;
+  height: 600px;
+}
+
+.out > div {
+  background-color: yellow;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+}

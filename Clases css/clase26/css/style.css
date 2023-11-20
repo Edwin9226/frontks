@@ -1,0 +1,76 @@
+.gradiant {
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(180deg, orange, yellow);
+}
+
+.transform {
+  transform: matrix(1, 2, 3, 4, 5, 6);
+}
+
+.transition {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  transition: width 4s, height 2s;
+}
+
+.trans:hover {
+  width: 400px;
+  height: 400px;
+}
+
+.animation {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+  animation-name: firstAnim;
+  animation-duration: 3s;
+  animation-iteration-count: 10;
+}
+
+.fitfth {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+  position: relative;
+  animation-name: fifth;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+
+@keyframes fifth {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 400px;
+    background-color: blue;
+  }
+}
+
+@keyframes firstAnim {
+  from {
+    background-color: blueviolet;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+.flex {
+  display: flex;
+  border: 3px solid salmon;
+  flex-wrap: wrap;
+}
+
+.flex div {
+  border: 1px solid green;
+  width: 200px;
+  line-height: 50px;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  font-size: 40px;
+}

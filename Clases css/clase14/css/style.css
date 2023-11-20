@@ -1,0 +1,16 @@
+div {
+  border: solid;
+  margin-left: 50px;
+}
+
+h1 {
+  border: groove red;
+  border-radius: 8px;
+  margin-inline: auto;
+}
+
+p {
+  border: 5px dotted;
+  margin-left: inherit;
+  margin-top: 8px;
+}

@@ -1,0 +1,10 @@
+ul li {
+  display: inline;
+}
+
+.title:focus,
+.title:hover {
+  opacity: 60;
+  background-color: blueviolet;
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+ul li::before {
+  content: " ";
+  background-repeat: no-repeat;
+  background-size: 10px;
+  background-image: url(../images/bola.jpg);
+  width: 20px;
+  height: 20px;
+}
+
+li {
+  display: flex;
+}

@@ -1,0 +1,22 @@
+.content {
+  background-color: burlywood;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.center {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  background-color: blue;
+}
+
+.right {
+  position: absolute;
+  top: 190px;
+  left: 130px;
+  background-color: blueviolet;
+}
