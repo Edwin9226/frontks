@@ -1,0 +1,10 @@
+#num {
+  width: 20%;
+  height: 200px;
+  border: 1px solid blue;
+  text-align: center;
+  padding: 5px;
+  font-size: 100px;
+  margin-left: 40%;
+  margin-top: 10%;
+}

@@ -1,0 +1,21 @@
+#myDiv {
+  width: 200px;
+  height: 200px;
+  border: 1px solid green;
+}
+
+.color1 {
+  color: #5d252e;
+}
+.color2 {
+  color: #7c3737;
+}
+.color3 {
+  color: #ab5643;
+}
+.color4 {
+  color: #e88553;
+}
+.color5 {
+  color: #ffc565;
+}

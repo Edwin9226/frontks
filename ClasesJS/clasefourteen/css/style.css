@@ -1,0 +1,21 @@
+img {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  display: none;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 10%;
+  height: 10%;
+  background-color: aqua;
+  color: black;
+  border: 1px solid black;
+  border-radius: 15%;
+}
